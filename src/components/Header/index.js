@@ -27,7 +27,7 @@ function Header(props) {
                                 <a href="#">Our Work</a>
                             </li>
                             <li>
-                                <a href="#">Contact Us</a>
+                                <a href="#" className="contact-btn">Contact Us</a>
                             </li>
                         </ul>
                     </nav>
