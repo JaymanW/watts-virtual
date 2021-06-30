@@ -5,7 +5,7 @@ import Hamburger from 'hamburger-react'
 
 function Header(props) {
     return (
-        <div className="Header">
+        <div className="Header" style={{boxShadow: props.isOpen ? 'none' : '0 2px 2px -2px rgba(0,0,0,.2)'}}>
             <div className="Header-wrapper">
                 <div className="logo-cnt">
                     <img src="./wvLogo.png" />
@@ -35,8 +35,8 @@ function Header(props) {
                     <Hamburger 
                         size="30"
                         color='#000'
-                        // onToggle={() => props.onBurger()}
-                        // toggled={props.isOpen}
+                        onToggle={() => props.onBurger()}
+                        toggled={props.isOpen}
                     />
                 }
             </div>

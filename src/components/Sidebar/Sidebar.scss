@@ -1,0 +1,12 @@
+@import '../../config';
+
+.contact-btn {
+    color: #fff;
+    background: $primary;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-in-out;
+
+    a {
+        color: #fff;
+    }
+}

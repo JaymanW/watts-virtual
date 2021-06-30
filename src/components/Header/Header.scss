@@ -1,11 +1,15 @@
 @import '../../config';
 
 .Header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
     height: 13vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    // box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 
     .Header-wrapper {
         width: 90%;
