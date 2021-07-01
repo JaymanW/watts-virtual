@@ -21,7 +21,7 @@ function Header(props) {
                                 <a href="#">About Us</a>
                             </li>
                             <li>
-                                <a href="#">Our Features</a>
+                                <a href="#">Our Services</a>
                             </li>
                             <li>
                                 <a href="#">Our Work</a>

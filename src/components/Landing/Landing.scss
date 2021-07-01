@@ -45,6 +45,13 @@
                 letter-spacing: 0.15rem;
                 color: #fff;
                 text-decoration: none;
+                font-weight: 300;
+                transition: all 0.2s ease-in-out;
+
+                &:hover {
+                    background: rgba(0, 0, 0, 0.8);
+                    
+                }
             }    
         }
     }
@@ -95,6 +102,61 @@
                     background: #000;
                     border: none;
                     padding: 0.5rem 1rem;
+                    font-family: "Roboto", sans-serif;
+                    letter-spacing: 0.15rem;
+                    color: #fff;
+                    text-decoration: none;
+                }    
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .Landing {
+        margin-top: 10vh;
+
+        .Landing-wrapper {
+            margin: 0 auto;
+            height: 90vh;
+            width: 90%;
+            max-width: 1100px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            // border: 2px solid red;
+    
+            .Landing-text {
+                width: 50%;
+                text-align: left;
+                max-width: 500px;
+                
+                h2 {
+                    font-family: "Poppins", sans-serif;
+                    line-height: 3rem;
+                    font-size: 3rem;
+    
+                    span {
+                        color: $primary;
+                        display: block;
+                    }
+                }
+    
+                p {
+                    margin-top: 1rem;
+                    font-family: "Roboto", sans-serif;
+                    font-size: 1.1rem;
+                }
+    
+                a {
+                    font-size: 0.9rem;
+                    display: inline-block;
+                    max-width: 200px;
+                    margin-top: 1.5rem;
+                    background: #000;
+                    border: none;
+                    padding: 0.75rem 1.25rem;
                     font-family: "Roboto", sans-serif;
                     letter-spacing: 0.15rem;
                     color: #fff;
