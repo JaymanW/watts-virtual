@@ -7,7 +7,7 @@ export const SidebarContainer = styled.aside`
     width: 100%;
     box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);;
     height: max-content;
-    background: rgba(255, 255, 255, 0.98);
+    background: rgba(255, 255, 255, 1);
     display: flex;
     justify-content: center;
     padding-top: 1rem;

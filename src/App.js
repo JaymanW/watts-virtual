@@ -3,6 +3,7 @@ import './App.scss';
 
 import Sidebar from './components/Sidebar'
 import Header from './components/Header'
+import Landing from './components/Landing'
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(null);
@@ -32,7 +33,7 @@ function App() {
     <div className="App">
       <Sidebar isOpen={isOpen} onBurger={handleOpen} />
       <Header windowWidth={windowWidth} onBurger={handleOpen} isOpen={isOpen} />
-      {/* LANDING */}
+      <Landing />
       {/* ABOUT */}
       {/* SERVICES */}
       {/* OUR WORK */}
