@@ -18,10 +18,10 @@ function Header(props) {
                     <nav>
                         <ul className="nav-menu">
                             <li>
-                                <a href="#">About Us</a>
+                                <a href="#About">About Us</a>
                             </li>
                             <li>
-                                <a href="#">Our Services</a>
+                                <a href="#Services">Our Services</a>
                             </li>
                             <li>
                                 <a href="#">Our Work</a>

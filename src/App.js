@@ -5,6 +5,7 @@ import Sidebar from './components/Sidebar'
 import Header from './components/Header'
 import Landing from './components/Landing'
 import About from './components/About'
+import Services from './components/Services'
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(null);
@@ -36,7 +37,7 @@ function App() {
       <Header windowWidth={windowWidth} onBurger={handleOpen} isOpen={isOpen} />
       <Landing />
       <About />
-      {/* SERVICES */}
+      <Services />
       {/* OUR WORK */}
       {/* CONTACT */}
       {/* FOOTER */}

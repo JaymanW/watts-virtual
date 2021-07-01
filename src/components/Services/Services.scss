@@ -1,0 +1,66 @@
+@import '../../config';
+
+#Services {
+    padding-bottom: 3rem;
+    
+    .Services-wrapper {
+        width: 90%;
+        margin: 0 auto;
+
+        h2 {
+            font-family: "Poppins", sans-serif;
+            color: $primary;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .Services-cnt {
+            .Services-item {
+                margin-top: 1rem;
+                font-family: "Roboto", sans-serif;
+    
+                &:nth-child(n+2) {
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #Services {
+        .Services-wrapper {
+            width: 90%;
+            margin: 0 auto;
+    
+            h2 {
+                font-family: "Poppins", sans-serif;
+                color: $primary;
+                font-size: 2rem;
+                text-align: center;
+            }
+    
+            .Services-cnt {
+                display: flex;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                margin-top: 2rem;
+
+                .Services-item {
+                    flex: 50%;
+                    margin-top: 0rem;
+                    font-family: "Roboto", sans-serif;
+                    padding: 0 1rem;
+        
+                    &:nth-child(n+2) {
+                        margin-top: 0rem;
+                    }
+
+                    &:nth-child(n+3) {
+                        margin-top: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
