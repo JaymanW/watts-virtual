@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Landing from './components/Landing'
 import About from './components/About'
 import Services from './components/Services'
+import Work from './components/Work'
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(null);
@@ -38,7 +39,7 @@ function App() {
       <Landing />
       <About />
       <Services />
-      {/* OUR WORK */}
+      <Work />
       {/* CONTACT */}
       {/* FOOTER */}
     </div>
