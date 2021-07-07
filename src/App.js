@@ -8,6 +8,7 @@ import About from './components/About'
 import Services from './components/Services'
 import Work from './components/Work'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(null);
@@ -42,7 +43,7 @@ function App() {
       <Services />
       <Work />
       <Contact />
-      {/* FOOTER */}
+      <Footer />
     </div>
   );
 }
