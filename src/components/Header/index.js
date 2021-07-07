@@ -24,10 +24,10 @@ function Header(props) {
                                 <a href="#Services">Our Services</a>
                             </li>
                             <li>
-                                <a href="#">Our Work</a>
+                                <a href="#Work">Our Work</a>
                             </li>
                             <li>
-                                <a href="#" className="contact-btn">Contact Us</a>
+                                <a href="#contact-wrapper" className="contact-btn">Contact Us</a>
                             </li>
                         </ul>
                     </nav>
