@@ -4,7 +4,7 @@ import './Sidebar.scss'
 
 function Sidebar(props) {
     return (
-        <SidebarContainer isOpen={props.isOpen}>
+        <SidebarContainer isOpen={props.isOpen} style={{display: props.windowWidth >= 768 ? 'none' : 'block'}}>
             <SidebarWrapper>
                 <SidebarMenu>
                     <SidebarLink href="#About" onClick={props.onBurger} >About Us</SidebarLink>
