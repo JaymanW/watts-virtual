@@ -1,7 +1,7 @@
 @import '../../config';
 
 #Services {
-    padding-top: 15vh;
+    padding-top: 3rem;
     
     .Services-wrapper {
         width: 90%;
@@ -35,6 +35,8 @@
 
 @media only screen and (min-width: 768px) {
     #Services {
+        padding-top: 3rem;
+
         .Services-wrapper {
             width: 90%;
             margin: 0 auto;
@@ -80,7 +82,7 @@
     #Services {
         // position: relative;
         // border: 2px solid red;
-        min-height: 100vh;
+        // min-height: 100vh;
 
         .Services-wrapper {
             width: 70%;

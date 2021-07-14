@@ -36,13 +36,13 @@ function App() {
   
   return (
     <div className="App">
-      <Sidebar isOpen={isOpen} onBurger={handleOpen} />
+      <Sidebar isOpen={isOpen} onBurger={handleOpen} windowWidth={windowWidth}/>
       <Header windowWidth={windowWidth} onBurger={handleOpen} isOpen={isOpen} />
       <Landing />
       <About />
       <Services />
       <Work />
-      <Contact />
+      <Contact windowWidth={windowWidth} />
       <Footer />
     </div>
   );

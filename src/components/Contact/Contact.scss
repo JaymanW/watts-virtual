@@ -2,7 +2,7 @@
 
 #contact-wrapper {
     min-height: 100vh;
-    padding-top: 15vh;
+    padding-top: 3rem;
     padding-bottom: 5rem;
     display: flex;
     justify-content: center;
@@ -28,6 +28,11 @@
         width: 85%;
         text-align: center;
         font-size: 0.9rem;
+    }
+
+    iframe {
+        margin-top: 1rem;
+        width: 95%;
     }
 }
 
@@ -59,6 +64,11 @@
             max-width: 800px;
             text-align: center;
             font-size: 1rem;
+        }
+
+        iframe {
+            margin-top: 1rem;
+            width: 80%;
         }
     }
 }

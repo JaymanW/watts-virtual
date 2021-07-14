@@ -10,13 +10,14 @@ export const SidebarContainer = styled.aside`
     background: rgba(255, 255, 255, 1);
     display: flex;
     justify-content: center;
-    padding-top: 1rem;
+    /* padding-top: 14vh; */
+    padding-top: ${({ isOpen }) => (isOpen ? '14vh' : '0')};
     padding-bottom: 1rem;
-    top: 13vh;
+    top: -13%;
     right: 0;
     transition: 0.5s ease-in-out;
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
-    top: ${({ isOpen }) => (isOpen ? '13vh' : '-13%')};
+    top: ${({ isOpen }) => (isOpen ? '0' : '-13%')};
 
     @media screen and (min-width: 768px) {
         width: 30%;
